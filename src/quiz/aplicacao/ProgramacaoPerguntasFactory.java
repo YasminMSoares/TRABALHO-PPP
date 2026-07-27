@@ -5,7 +5,7 @@ import quiz.framework.Pergunta;
 
 public class ProgramacaoPerguntasFactory {
 
-    public static List<Pergunta> criaPerguntaProgramacao(){
+    public static List<Pergunta> criarPerguntasProgramacao(){
         List<Pergunta> lista = new ArrayList<>();
 
         lista.add(new Pergunta(
