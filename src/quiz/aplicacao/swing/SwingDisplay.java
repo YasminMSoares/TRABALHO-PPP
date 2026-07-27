@@ -18,7 +18,6 @@ public class SwingDisplay extends JFrame implements QuizDisplay {
     private JRadioButton[] radios;
     private ButtonGroup grupo;
 
-    // Variáveis que vão substituir o JOptionPane
     private int escolhaUsuario = -1;
     private CountDownLatch travaEspera;
 
