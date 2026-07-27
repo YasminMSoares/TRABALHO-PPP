@@ -1,8 +1,8 @@
 # Framework de Quiz Genérico (Orientado a Objetos)
 
-Este projeto consiste em um **framework genérico e extensível orientado a objetos para jogos do tipo *Quiz***, desenvolvido para a disciplina de **Princípios e Padrões de Projetos (PPP)** da Universidade Federal de Uberlândia (UFU)[cite: 2].
+Este projeto consiste em um **framework genérico e extensível orientado a objetos para jogos do tipo *Quiz***, desenvolvido para a disciplina de **Princípios e Padrões de Projetos (PPP)** da Universidade Federal de Uberlândia (UFU).
 
-O objetivo principal da arquitetura é fornecer toda a infraestrutura e o controle de fluxo genéricos de um jogo de perguntas e respostas sem depender de implementações concretas de interface gráfica ou regras específicas de domínio, promovendo alta coesão, baixo acoplamento e reusabilidade de código[cite: 2].
+O objetivo principal da arquitetura é fornecer toda a infraestrutura e o controle de fluxo genéricos de um jogo de perguntas e respostas sem depender de implementações concretas de interface gráfica ou regras específicas de domínio, promovendo alta coesão, baixo acoplamento e reusabilidade de código.
 
 ---
 
@@ -15,10 +15,10 @@ O objetivo principal da arquitetura é fornecer toda a infraestrutura e o contro
 
 ## Arquitetura e Organização do Projeto
 
-O projeto é estritamente dividido em dois módulos conceituais[cite: 2]:
+O projeto é estritamente dividido em dois módulos conceituais:
 
-1. **Núcleo do Framework (`quiz.framework`)**: Contém os componentes abstratos, modelos de dados, controladores do fluxo do jogo e interfaces de abstração (exibições e estratégias)[cite: 2]. Não possui nenhuma dependência de bibliotecas de interface visual (como Java Swing) ou de entradas específicas do console[cite: 2].
-2. **Aplicações Clientes (`quiz.aplicacao`)**: Implementações concretas de jogos e interfaces que estendem e utilizam a estrutura fornecida pelo framework[cite: 2].
+1. **Núcleo do Framework (`quiz.framework`)**: Contém os componentes abstratos, modelos de dados, controladores do fluxo do jogo e interfaces de abstração (exibições e estratégias). Não possui nenhuma dependência de bibliotecas de interface visual (como Java Swing) ou de entradas específicas do console.
+2. **Aplicações Clientes (`quiz.aplicacao`)**: Implementações concretas de jogos e interfaces que estendem e utilizam a estrutura fornecida pelo framework.
 
 ### Estrutura de Diretórios e Arquivos
 
